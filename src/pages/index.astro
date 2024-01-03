@@ -1,0 +1,1351 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+---
+
+<Layout  title="Kerala Startup Mission">
+	
+    <div class="page-wrapper">
+		<header class="main-header-three z-40">
+            <nav class="main-menu main-menu-three">
+                <div class="main-menu-three__wrapper">
+                    <div class="main-menu-three__wrapper-inner">
+                        <div class="main-menu-three__logo flex gap-4">
+                            <a ><img src="/assets/images/img/logo-white.svg" class="md:w-24 w-16 " alt=""></a>
+                            <a ><img src="/img/habitat_white.svg" class="md:w-28 w-16 " alt=""></a>
+                        
+                        </div>
+                        
+                        <div class="main-menu-three__search-cart-box">
+                            <div class="main-menu-three__search-box">
+                                <a href="#" class=" text-white hover:text-[#fc811b] text-sm" > Home</a>
+                            </div>
+                            <div class="main-menu-three__cart-box">
+								<a onclick="openForm()" class="thm-btn main-slider__btn cursor-pointer">Apply Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--Main Slider Start-->
+		<section class="main-slider">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+        "effect": "fade",
+        "pagination": {
+        "el": "#main-slider-pagination",
+        "type": "bullets",
+        "clickable": true
+        },
+        "navigation": {
+        "nextEl": "#main-slider__swiper-button-next",
+        "prevEl": "#main-slider__swiper-button-prev"
+        },
+        "autoplay": {
+        "delay": 5000
+        }}'>
+                <div class="swiper-wrapper">
+
+                   
+
+                    <div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(/img/bg1.png);"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <h2 class="main-slider__title ">Construction <br> Innovation Hub </h2>
+                                        <!-- <div class="about-one__points-box w-1/3 flex   flex-row  gap-3">
+                                            <div class=" mx-auto">
+                                                
+                                                <div class="about-one__points-content">
+                                                    <div class="">
+                                                        <img src="/assets/images/img/logo-white.svg" class="lg:w-28 md:w-24 w-28">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" mx-auto">
+                                                
+                                                <div class="about-one__points-content">
+                                                    <div class="">
+                                                        <img src="/img/habitat.svg" class="lg:w-28 md:w-24 w-28">
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="main-slider__btn-box">
+                                            <a onclick="openForm()" class="thm-btn main-slider__btn cursor-pointer">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="swiper-slide">
+                        <div class="image-layer"
+                            style="background-image: url(/img/bg1.png);"></div>
+                        <!-- /.image-layer -->
+
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-12">
+                                    <div class="main-slider__content">
+                                        <h2 class="main-slider__title ">Construction <br> Innovation Hub </h2>
+                                        <!-- <div class="about-one__points-box w-1/3 flex   flex-row  gap-3">
+                                            <div class=" mx-auto">
+                                                
+                                                <div class="about-one__points-content">
+                                                    <div class="">
+                                                        <img src="/assets/images/img/logo-white.svg" class="lg:w-28 md:w-24 w-28">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class=" mx-auto">
+                                                
+                                                <div class="about-one__points-content">
+                                                    <div class="">
+                                                        <img src="/img/habitat.svg" class="lg:w-28 md:w-24 w-28">
+                                                    </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div> -->
+                                        <div class="main-slider__btn-box">
+                                            <a onclick="openForm()" class="thm-btn main-slider__btn cursor-pointer">Apply Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="swiper-pagination" id="main-slider-pagination"></div>
+                <!-- If we need navigation buttons -->
+                <div class="main-slider__nav">
+                    <div class="swiper-button-prev" id="main-slider__swiper-button-next">
+                        <i class="icon-left-arrow"></i>
+                    </div>
+                    <div class="swiper-button-next" id="main-slider__swiper-button-prev">
+                        <i class="icon-right-arrow"></i>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!--Main Slider End-->
+
+        <!--About One Start-->
+        <section class="about-one py-24">
+            <div class="about-one__shape-1 float-bob-y">
+                <img src="/assets/images/shapes/about-one-shape-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-one__left">
+                            <div class="about-one__img-box wow slideInLeft" data-wow-delay="100ms"
+                                data-wow-duration="2500ms">
+                                <div class="about-one__img">
+                                    <img src="/img/ab11.png" alt="">
+                                </div>
+                                <div class="about-one__img-2">
+                                    <img src="/img/ab2.png" alt="">
+                                </div>
+                              
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 my-auto lg:pt-0 md:pt-10">
+                        <div class="about-one__right my-auto flex flex-col">
+                           
+                            <div class="about-one__points-box flex  mx-auto  flex-row  gap-3 ">
+                                <div class=" mx-auto">
+                                    
+                                    <div class="about-one__points-content">
+                                        <div class="">
+                                            <img src="/assets/images/img/logo.svg" class="lg:w-36 md:w-28 w-28">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" mx-auto">
+                                    
+                                    <div class="about-one__points-content">
+                                        <div class="">
+                                            <img src="/img/habitat.svg" class="lg:w-40 md:w-28 w-32">
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="about-one__text text-justify my-auto">The Construction Innovation Hub (CIH) aims to promote Innovation and Sustainability in Construction in India by fostering collaboration, innovation, and knowledge sharing among stakeholders in the construction industry. CIH will be focused on exploring solutions that address some of the biggest challenges facing the construction industry today which includes labour shortages, building materials, environmental impact, project delays, adoption of technology and inefficiencies in the construction process. CIH will provide a platform for relevant stakeholders in the construction value chain comprising of tech / product startups, architects, engineers, designers, contractors, masons, carpenters, designers, policymakers, academics, and civil society organizations to come together and share their experiences, best practices, and solutions for sustainable construction.</p>
+                           
+							<p class="about-one__text text-justify mt-4" style="display: none;" id="ab2">CIH is committed to sustainability and aims to reduce the environmental impact of construction projects using sustainable materials, eco-friendly building techniques, and smart buildings. The Hub will also promote the development of markets for affordable construction solutions. This will involve working with developers, contractors, and government agencies to identify opportunities for affordable housing and infrastructure projects.</p>
+                            <div class="about-one__btn-box mt-10 float-right">
+                                <a  class="about-one__btn thm-btn p-1 cursor-pointer" onclick="toggleParagraph()" id="button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--About One End-->
+
+        <!--Counter One Start-->
+      
+
+		<section class="counter-three lg:pt-24 pt-10">
+            <div class="container">
+                <div class="row">
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="50">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">Startups</h3>
+                            
+                            <div class="counter-three__icon">
+                                <span class="icon-trophy"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single counter-three__single-2">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="500">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">Student Entrepreneurs
+							</h3>
+                          
+                            <div class="counter-three__icon">
+                                <span class="icon-success"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="1000">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">MSME Market Players
+							</h3>
+                            
+                            <div class="counter-three__icon">
+                                <span class="icon-employee"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                    <!--Counter Three Single Start-->
+                    <div class="col-xl-3 col-lg-6 col-md-6">
+                        <div class="counter-three__single counter-three__single-4">
+                            <div class="counter-three__count-box">
+                                <h3 class="odometer" data-count="10">00</h3>
+                                <span class="counter-three__plus">+</span>
+                            </div>
+                            <h3 class="counter-three__title">Hackathons
+							</h3>
+                            
+                            <div class="counter-three__icon">
+                                <span class="icon-rating-stars"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Counter Three Single End-->
+                </div>
+            </div>
+        </section>
+        <!--Counter One End-->
+
+    
+<!-- key -->
+
+        <section class="services-page-six">
+            <div class="container h-auto">
+                <div class="section-title text-left">
+                    <span class="section-title__tagline">Key Activities</span>
+                    <!-- <h2 class="section-title__title">See why you should choose austry</h2> -->
+                </div>
+                <div class=" grid  md:grid-cols-3 grid-cols-1 gap-4 lg:grid-cols-4 h-full ">
+                    <!--Services Six Single Start-->
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon">
+                                <span class="icon-success"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">Support Startups
+                            </h3>
+                            <p class="services-six__text">Identification, selection, and support startups across India with solutions in the construction / housing and with a special focus on affordable housing.</p>
+                            
+                        </div>
+                    </div>
+                    <!--Services Six Single End-->
+                    <!--Services Six Single Start-->
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon">
+                                <span class="icon-ecosystem"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">Nurturing Early-Stage Entrepreneurs
+                            </h3>
+                            <p class="services-six__text">Coordinating with Universities and colleges in Kerala to identify early-stage innovators in shelter tech and to extend CIH support to them through knowledge sharing, expert mentoring, domain specific workshops and bootcamps.</p>
+                            
+                        </div>
+                    </div>
+                    <!--Services Six Single End-->
+                    <!--Services Six Single Start-->
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon">
+                                <span class="icon-maintenance"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">MSME support in the construction value chain</h3>
+                            <p class="services-six__text">The Hub will organize training programs, workshops, and seminars to build the capacity of MSME’s in construction practices, including sustainable construction practices.</p>
+                            
+                        </div>
+                    </div>
+                    <!--Services Six Single End-->
+                    <!--Services Six Single Start-->
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon">
+                                <span class="icon-industry"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">Industry Outreach</h3>
+                            <p class="services-six__text">The Hub will facilitate networking and collaboration among stakeholders in the construction industry, investor and corporate connect events, business incubation, and mentorship programs.</p>
+                            
+                        </div>
+                    </div>
+                    <!--Services Six Single End-->
+                    <!--Services Six Single Start-->
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon">
+                                <span class="icon-drilling-rig"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">Innovation and research</h3>
+                            <p class="services-six__text">The Hub will support research and development of innovative technologies and materials for sustainable construction, including low-carbon building materials, smart buildings, and renewable energy systems.</p>
+                            
+                        </div>
+                    </div>
+                    <!--Services Six Single End-->
+                    <!--Services Six Single Start-->
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon">
+                                <span class="icon-planning"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">Policy advocacy
+                            
+                            </h3>
+                            <p class="services-six__text">The Hub will work with policymakers to advocate for sustainable construction policies and regulations that promote resource efficiency, environmental protection, and social responsibility.
+
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <div class=" group services-six__single h-auto ">
+                        <div class="feature-three__single hover:text-white p-2 h-full">
+                            <div class="services-six__icon ">
+                                <span class="icon-file"></span>
+                            </div>
+                            <h3 class="services-six__title group-hover:text-[#fc811b]">Access to funding
+
+                            
+                            </h3>
+                            <p class="services-six__text">Paid PoC pilots to early-stage startups and access to funding at various stages through The Terwilliger Centre and KSUM network.                                                 
+
+                            </p>
+                            
+                        </div>
+                    </div>
+                    <!--Services Six Single End-->
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="why-choose-two container">
+            <div class="why-choose-two__shape-1 float-bob-x">
+                <img src="assets/images/shapes/why-choose-two-shape-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="">
+                            <div class=" wow slideInLeft" data-wow-delay="100ms"
+                                data-wow-duration="2500ms">
+                                <div class="">
+                                    <img src="/img/bbg.svg" alt="" class=" flex md:p-8 p-3 object-contain">
+                                </div>
+                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 my-auto">
+                        <div class="why-choose-two__right">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">Benefits</span>
+                                <!-- <h2 class="section-title__title">See why you should choose austry</h2> -->
+                            </div>
+                            <!-- <p class="why-choose-two__text">There are many variations of passages of available but the
+                                majority have suffered. Alteration in some form, lipsum is simply free text by injected
+                                humou or randomised words even believable.</p> -->
+                            <ul class="list-unstyled why-choose-two__points">
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-entrepreneur"></span>
+                                    </div>
+                                    <div class="content">
+                                        <p>Benefit 01</p>
+                                        <h4>Mentoring</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-industrial"></span>
+                                    </div>
+                                    <div class="content">
+                                        <p>Benefit 02</p>
+                                        <h4>Grants worth USD 150K</h4>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="icon">
+                                        <span class="icon-file"></span>
+                                    </div>
+                                    <div class="content">
+                                        <p>Benefit 03</p>
+                                        <h4>Support through KSUM schemes</h4>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="benefits-one">
+            <div class="benefits-one__shape-1 float-bob-x">
+                <img src="/img/focus.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-7 item-center my-auto">
+                    
+                        <div class="feature-three">
+                            <div class=" my-auto items-center justify-center flex flex-col">
+                                <div class="section-title text-left">
+                                    <span class="section-title__tagline">Focus Sectors</span>
+                                </div>
+                                <div class=" my-auto grid sm:grid-cols-3 grid-cols-1 gap-4">
+                                    <!--Feature Three Single Start-->
+                                    <div class="wow fadeInUp" data-wow-delay="100ms">
+                                        <div class="feature-three__single" style="padding: 40px 40px 26px;">
+                                            <div class="feature-three__count-and-icon">
+                                                <div class="feature-three__count"></div>
+                                                <div class="feature-three__icon">
+                                                    <span class="icon-construction"></span>
+                                                </div>
+                                            </div>
+                                            <h3 class="feature-three__title">Construction</h3>
+                                        </div>
+                                    </div>
+                                    <!--Feature Three Single End-->
+                                    <!--Feature Three Single Start-->
+                                    <div class="wow fadeInUp" data-wow-delay="200ms">
+                                        <div class="feature-three__single" style="padding: 40px 40px 26px;">
+                                            <div class="feature-three__count-and-icon">
+                                                <div class="feature-three__count"></div>
+                                                <div class="feature-three__icon">
+                                                    <span class="icon-house"></span>
+                                                </div>
+                                            </div>
+                                            <h3 class="feature-three__title">Housing</h3>
+                                        </div>
+                                    </div>
+                                    <!--Feature Three Single End-->
+                                    <!--Feature Three Single Start-->
+                                    <div class="wow fadeInUp" data-wow-delay="300ms">
+                                        <div class="feature-three__single" style="padding: 40px 40px 26px;">
+                                            <div class="feature-three__count-and-icon">
+                                                <div class="feature-three__count"></div>
+                                                <div class="feature-three__icon">
+                                                    <span class="icon-appartments"></span>
+                                                </div>
+                                            </div>
+                                            <h3 class="feature-three__title">Real Estate</h3>
+                                        </div>
+                                    </div>
+                                    <!--Feature Three Single End-->
+                                    <!--Feature Three Single Start-->
+                                    <div class="wow fadeInUp" data-wow-delay="400ms">
+                                        <div class="feature-three__single" style="padding: 40px 40px 26px;">
+                                            <div class="feature-three__count-and-icon">
+                                                <div class="feature-three__count"></div>
+                                                <div class="feature-three__icon">
+                                                    <span class="icon-planet-earth"></span>
+                                                </div>
+                                            </div>
+                                            <h3 class="feature-three__title">Green Building Materials</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="wow fadeInUp" data-wow-delay="400ms">
+                                        <div class="feature-three__single" style="padding: 40px 40px 26px;">
+                                            <div class="feature-three__count-and-icon">
+                                                <div class="feature-three__count"></div>
+                                                <div class="feature-three__icon">
+                                                    <span class="icon-green-power"></span>
+                                                </div>
+                                            </div>
+                                            <h3 class="feature-three__title">Climate Tech &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h3>
+                                        </div>
+                                    </div>
+
+                                    <div class="wow fadeInUp" data-wow-delay="400ms">
+                                        <div class="feature-three__single" style="padding: 40px 40px 26px;">
+                                            <div class="feature-three__count-and-icon">
+                                                <div class="feature-three__count"></div>
+                                                <div class="feature-three__icon">
+                                                    <span class="icon-factory"></span>
+                                                </div>
+                                            </div>
+                                            <h3 class="feature-three__title">Green Building Materials</h3>
+                                        </div>
+                                    </div>
+                                    <!--Feature Three Single End-->
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="col-xl-5">
+                        <div class="benefits-one__right">
+                            <div class="benefits-one__img clearfix">
+                                <img src="/img/AdobeStock_662191962 1.png" alt="">
+                                <div class="benefits-one__counter-box">
+                                    <!-- <ul class="list-unstyled benefits-one__counter">
+                                        <li>
+                                            <div class="benefits-one__counter-single">
+                                                <div class="benefits-one__counter-icon">
+                                                    <span class="icon-rating"></span>
+                                                </div>
+                                                <div class="benefits-one__counter-content count-box">
+                                                    <h3 class="count-text" data-stop="87450" data-speed="1500">00</h3>
+                                                    <p class="benefits-one__counter-text">happy customers</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="benefits-one__counter-single">
+                                                <div class="benefits-one__counter-icon">
+                                                    <span class="icon-file"></span>
+                                                </div>
+                                                <div class="benefits-one__counter-content count-box">
+                                                    <h3 class="count-text" data-stop="34560" data-speed="1500">00</h3>
+                                                    <p class="benefits-one__counter-text">Projects Completed</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--need-->
+        <!-- <section class="trusted-one">
+            <div class="trusted-one__bg jarallax" data-jarallax data-speed="0.2" data-imgPosition="50% 0%"
+                style="background-image: url(/assets/images/backgrounds/trusted-one-bg.jpg);">
+            </div>
+            <div class="container">
+                <div class="trusted-one__inner">
+                    <div class="trusted-one__video-link">
+                        <a href="https://www.youtube.com/watch?v=Get7rqXYrbQ" class="video-popup">
+                            <div class="trusted-one__video-icon">
+                                <span class="fa fa-play"></span>
+                                <i class="ripple"></i>
+                            </div>
+                        </a>
+                    </div>
+                    <h3 class="trusted-one__title count-box">Trusted By Additional Than <span class="count-text"
+                            data-stop="450000" data-speed="1500">00</span> <br>Upbeat Individuals</h3>
+                    <div class="trusted-one__btn-box">
+                        <a href="about.html" class="trusted-one__btn thm-btn">Apply Now</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Trusted One End-->
+
+      <!-- need -->
+        <!-- <section class="best-construction">
+            <div class="best-construction__shape-1 float-bob-x">
+                <img src="/assets/images/shapes/best-construction-shape-1.png" alt="">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="best-construction__left">
+                            <div class="section-title text-left">
+                                <span class="section-title__tagline">What Else We Do</span>
+                                <h2 class="section-title__title">Best construction &
+                                    building business</h2>
+                            </div>
+                            <h3 class="best-construction__title">committed to providing our customers with exceptional
+                                service.</h3>
+                            <p class="best-construction__text">Lorem Ipsum is simply dummy text of free available in
+                                market the printing and typesetting industry has been the industry's standard dummy text
+                                ever.</p>
+                            <div class="best-construction__progress">
+                                <div class="best-construction__progress-single">
+                                    <h4 class="best-construction__progress-title">Construction</h4>
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="78%">
+                                            <div class="count-text">78%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="best-construction__progress-single">
+                                    <h4 class="best-construction__progress-title">Building</h4>
+                                    <div class="bar marb-0">
+                                        <div class="bar-inner count-bar" data-percent="60%">
+                                            <div class="count-text">36%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6">
+                        <div class="best-construction__right">
+                            <div class="best-construction__img-box">
+                                <div class="best-construction__img">
+                                    <img src="/assets/images/resources/best-construction-img-1.jpg" alt="">
+                                </div>
+                                <div class="best-construction__name">
+                                    <p>Austry Construction</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <!--Best Construction End-->
+
+      <!-- timtline -->
+<!-- <section class=" container ">
+    <div class="container-fluid">
+        <div class="row example-basic">
+           
+            <div class="col-xs-10 col-xs-offset-1 col-sm-8 col-sm-offset-2">
+                <ul class="timeline">
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>December 15, 2023</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Application Start Date</h3>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>January 15, 2024</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Application Deadline
+                            </h3>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>January 20, 2024</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Screening phase 1</h3>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>January 31, 2024</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Screening phase 2</h3>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>February 5, 2024</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Program Launch</h3>
+                        </div>
+                    </li>
+                    <li class="timeline-item period">
+                        <div class="timeline-info"></div>
+                        <div class="timeline-marker"></div>
+                        
+                    </li>
+                   
+                </ul>
+            </div>
+        </div>
+       
+    </div>
+</section> -->
+
+
+<section class="process-one">
+    <div class="process-one__bg" style="background-image: url(/img/tm1.png);">
+    </div>
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="section-title__tagline text-white">Timeline
+
+            </span>
+        </div>
+        <div class=" grid lg:grid-cols-5 md:grid-cols-2 grid-cols-1">
+            <!--Process One Single Start-->
+            <div class="wow fadeInUp mx-auto text-center" data-wow-delay="100ms">
+                <div class="process-one__single">
+                    <div class="process-one__icon mx-auto">
+                        <span class="icon-chat"></span>
+                        <div class="process-one__count"></div>
+                    </div>
+                    <h4 class="process-one__title">Application Start Date</h4>
+                    <p class="process-one__text">15th December 2023</p>
+                </div>
+            </div>
+            <!--Process One Single End-->
+            <!--Process One Single Start-->
+            <div class="wow fadeInUp mx-auto text-center" data-wow-delay="200ms">
+                <div class="process-one__single">
+                    <div class="process-one__icon mx-auto">
+                        <span class="icon-planning"></span>
+                        <div class="process-one__count"></div>
+                    </div>
+                    <h4 class="process-one__title">Application Deadline</h4>
+                    <p class="process-one__text">15th January 2024</p>
+                </div>
+            </div>
+            <!--Process One Single End-->
+            <!--Process One Single Start-->
+            <div class="wow fadeInUp mx-auto text-center" data-wow-delay="300ms">
+                <div class="process-one__single">
+                    <div class="process-one__icon mx-auto">
+                        <span class="icon-quality"></span>
+                        <div class="process-one__count"></div>
+                    </div>
+                    <h4 class="process-one__title">Screening phase 1</h4>
+                    <p class="process-one__text">20th January 2024
+                    </p>
+                </div>
+            </div>
+            <!--Process One Single End-->
+            <!--Process One Single Start-->
+            <div class="wow fadeInUp mx-auto text-center" data-wow-delay="400ms">
+                <div class="process-one__single">
+                    <div class="process-one__icon mx-auto">
+                        <span class="icon-file"></span>
+                        <div class="process-one__count"></div>
+                    </div>
+                    <h4 class="process-one__title">Screening phase 2
+                    </h4>
+                    <p class="process-one__text">31st January 2024
+                    </p>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp mx-auto text-center" data-wow-delay="400ms">
+                <div class="process-one__single">
+                    <div class="process-one__icon mx-auto">
+                        <span class="icon-success"></span>
+                        <div class="process-one__count"></div>
+                    </div>
+                    <h4 class="process-one__title">Program Launch
+                    </h4>
+                    <p class="process-one__text">5th February 2024
+                    </p>
+                </div>
+            </div>
+            <!--Process One Single End-->
+        </div>
+    </div>
+</section>
+
+
+
+
+   
+
+
+   <section class="team-two">
+    <div class="team-two__shape-2" style="background-image: url(/assets/images/shapes/team-two-shape-2.png);">
+    </div>
+    <div class="container">
+        <div class="section-title text-center">
+            <span class="section-title__tagline">Advisory Committee members</span>
+        </div>
+        <div class="grid md:grid-cols-4 grid-cols-2 gap-4">
+            <!--Team Two Single Start-->
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/anuj.jpg" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/mehranuj/?originalSubdomain=in" target="_blank"><img src="/img/ll.svg" class="w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Anuj Mehra</h3>
+                        <p class="process-one__text text-base"> Ex MD- Mahindra Home Finance , Impact Investment Mentor, Independent Director - Adani Housing Finance. </p>
+                       
+                    </div>
+                </div>
+            </div>
+           
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/Bharat-Jaisinghani_1 1.png" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/bharat-jaisinghani-b9ab6b28/?originalSubdomain=in" target="_blank"><img src="/img/ll.svg" class="w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Bharat Jaisighani</h3>
+                        <p class="process-one__text text-base">Executive Director – Polycab India Limited </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/f0caa3d9af1e1e7e051c8977d11e1112 1.png" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/harish-anand-a29a7811/?originalSubdomain=ae" target="_blank"><img src="/img/ll.svg" class="w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Harish Anand</h3>
+                        <p class="process-one__text text-base">Head - Group Corporate Infra Projects, Landmark Group
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/Adithya.jpg" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/adithyavs1993/" target="_blank"><img src="/img/ll.svg" class="w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Adithya Jain</h3>
+                        <p class="process-one__text text-base">CEO, Founder TVASTA Manufacturing Solutions
+                            Gopikrishnan - Founder  BuildNext 
+                            </p>
+                       
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/Dhaval-Monanai-removebg-preview 1.png" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/dhavalmonani/?originalSubdomain=in" target="_blank"><img src="/img/ll.svg" class="w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Dhaval Monani</h3>
+                        <p class="process-one__text text-base">Associate Professor & Director of Housing, Anant National University and Advisory Board Member – TCIS</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/anoop.jpg" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/anoopambika/?originalSubdomain=in" target="_blank"><img src="/img/ll.svg" class=" w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Anoop Ambika</h3>
+                        <p class="process-one__text text-base">CEO -Kerala Startup Mission</p>
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div class="wow fadeInUp" data-wow-delay="100ms">
+                <div class="team-two__single">
+                    <div class="team-two__img-box">
+                        <div class="team-two__img">
+                            <img src="/img/1526565122925 1.png" alt="">
+                        </div>
+                        <ul class="list-unstyled team-two__social  bottom-0">
+                            <li><a href="https://www.linkedin.com/in/anoop-nambiar/" target="_blank"><img src="/img/ll.svg" class="w-6"></a></li>
+                           
+                        </ul>
+                    </div>
+                    <div class="team-two__content text-left">
+                        <h3 class="team-two__name">Anoop Nambiar</h3>
+                        <p class="process-one__text text-base">Country Director, TCIS 
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- <section class="best-construction">
+    <div class="best-construction__shape-1 float-bob-x">
+        <img src="assets/images/shapes/best-construction-shape-1.png" alt="">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 my-auto">
+                <div class="best-construction__left my-auto">
+                    <div class="section-title text-left  p-0">
+                        <span class="section-title__tagline p-0 m-0 leading-8">Huddle Global Panel Discussion on Construction Innovation Hub</span>
+                       
+                    </div>
+                  
+                    <p class="best-construction__text my-auto flex">The hub aims to identify innovative solutions for the construction industry, focusing on sustainability and affordability. By leveraging the expertise of startups and entrepreneurs, the hub will drive the development of cost-effective and sustainable construction methods.</p>
+                   
+                </div>
+            </div>
+            <div class="col-xl-8 col-lg-8 ">
+                <div class="best-construction__right ">
+                    <section class="trusted-one">
+                        <div class="trusted-one__bg  bg-no-repeat bg-center jarallax" data-jarallax data-speed="0.2"
+                            style="background-image: url(/img/huddle.png);">
+                        </div>
+                        <div class="container trusted-one_one_one">
+                            <div class="trusted-one__inner">
+                                <div class="trusted-one__video-link ">
+                                    <a href="https://www.youtube.com/watch?v=3mSCTWIHSGM" class="video-popup">
+                                        <div class="trusted-one__video-icon ">
+                                            <span class="fa fa-play"></span>
+                                            <i class="ripple"></i>
+                                        </div>
+                                    </a>
+                                </div>
+                               
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+
+<section class="testimonial-five pb-6">
+    <div class="best-construction__shape-1 float-bob-x">
+        <img src="assets/images/shapes/best-construction-shape-1.png" alt="">
+    </div>
+    <div class="testimonial-five__dot"
+        style="background-image: url(assets/images/shapes/testimonial-five-dot.png);"></div>
+    <div class="container">
+        <div class="grid  md:grid-cols-3 grid-cols-1 gap-4 ">
+          <div>
+            <div class="best-construction__left my-auto">
+                <div class="section-title text-left  p-0">
+                    <span class="section-title__tagline p-0 m-0 leading-8">Huddle Global Talk on Construction Innovation Hub</span>
+                   
+                </div>
+                <!-- <h3 class="best-construction__title">committed to providing our customers with exceptional
+                    service.</h3> -->
+                <p class="best-construction__text my-auto flex">The hub aims to identify innovative solutions for the construction industry, focusing on sustainability and affordability. By leveraging the expertise of startups and entrepreneurs, the hub will drive the development of cost-effective and sustainable construction methods.</p>
+               
+            </div>
+            </div>
+            <div class="">
+                <div class="testimonial-five__left">
+                    <div class="testimonial-five__left-img">
+                        <a href="https://www.youtube.com/watch?v=3mSCTWIHSGM" class="video-popup">
+                        <img src="/img/AAD00253 1 (1).svg" alt="">
+                        <div class="testimonial-five__video-link">
+                           
+                                <div class="testimonial-five__video-icon">
+                                    <span class="fa fa-play"></span>
+                                    <i class="ripple"></i>
+                                </div>
+                           
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="">
+                <div class="testimonial-five__left">
+                    <div class="testimonial-five__left-img">
+                        <a href="https://www.youtube.com/watch?v=pEdf9yNL4QQ" class="video-popup">
+                        <img src="/img/P1883426 1.svg" alt="">
+                        <div class="testimonial-five__video-link">
+                          
+                                <div class="testimonial-five__video-icon">
+                                    <span class="fa fa-play"></span>
+                                    <i class="ripple"></i>
+                                </div>
+                            
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!-- <div id="popup" class="fixed inset-0 flex  items-center justify-center z-50 bg-black bg-opacity-50 hidden">
+   
+    <div class=" rounded-lg relative ">
+      
+        <img src="" alt="Popup Image" id="popupImage" class="md:w-3/4 w-full mx-auto">
+       
+        <button id="closeButton"  class="absolute -top-5 right-0 rounded-full bg-slate-900 text-white closePopup " >
+          <svg class="h-5 w-5" fill="white" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+          </svg>
+        </button>
+    </div>
+</div> -->
+
+<!-- <section>
+    <div class=" grid md:grid-cols-3 lg:grid-cols-5 grid-cols-1 gap-4 ">
+                
+       
+        <div class=" flex flex-col  shadow-md border border-black group relative cursor-pointer " onclick="h('/img/p1.png')">
+         
+            <div  class=" overflow-hidden p-2">
+                <img src="/img/p1.png" class=" group-hover:scale-125 duration-500" >
+            </div>
+            <div class=" px-3 pb-6 font-poppins">
+                <h1 class=" text-base font-semibold uppercase">Structural Integrated Panels Pvt Ltd</h1>
+                <p class=" text-sm pt-4 pb-2">Founder: Sangeetha Menon</p>
+                <a href="https://www.hedrad.in/" target="_blank" class=" absolute bottom-2 right-2"><img src="/img/p1.png" class=" w-8 h-8 group-hover:scale-150 duration-500"></a>
+            </div>
+          
+        </div>
+
+
+      
+    </div>
+</section> -->
+
+
+<section class=" container pt-24">
+    <div class="section-title text-center mx-auto">
+        <span class="section-title__tagline leading-8">Launch of Construction Innovation Hub
+        </span>
+    </div>
+    <div class=" grid sm:grid-cols-4 grid-cols-1 gap-3">
+        <div class="">
+            <img src="/img/5.png">
+        </div>
+        <div class="">
+            <img src="/img/6.png">
+        </div>
+        <div class="">
+            <img src="/img/7.png">
+        </div>
+         <div class="">
+            <img src="/img/8.png">
+        </div>
+    </div>
+</section>
+
+
+
+<section class=" mx-auto flex flex-col py-24">
+    <div class="section-title text-center mx-auto">
+        <span class="section-title__tagline">Partners
+        </span>
+    </div>
+    <div class=" mx-auto w-2/4">
+        <div class=" grid sm:grid-cols-3 grid-cols-1 gap-4">
+            <div class=" ">
+                <img src="/img/p1.png">
+            </div>
+            <div class=" ">
+                <img src="/img/p2.png">
+            </div>
+            <div class=" ">
+                <img src="/img/p3.png">
+            </div>
+        </div>
+    </div>
+</section>
+
+   
+
+
+
+
+
+
+        <div id="overlay" class="overlay z-40">
+            <div class="popup-form lg:w-3/5 md:w-3/4  h-5/6 w-full relative">
+            
+            <span class="z-50 close-btn absolute  top-0 right-0 text-black cursor-pointer"  onclick="closeForm()"><svg  xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" class="w-8 h-8">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+            
+            </span>
+            
+            <iframe src="https://zfrmz.com/Gyw3T0Aixy6nxI2q4qeW" class=" w-full h-full"></iframe>
+            </div>
+        </div>
+</div>
+
+<footer class="site-footer">
+    <div class="site-footer__img">
+        <img src="assets/images/resources/site-footer-img-1.jpg" alt="">
+    </div>
+    <div class="container">
+        <!-- <div class="site-footer__top">
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                    <div class="footer-widget__column footer-widget__about">
+                        <div class="footer-widget__logo">
+                            <a href="index.html"><img src="assets/images/resources/footer-logo.png" alt=""></a>
+                        </div>
+                        <div class="footer-widget__about-text-box">
+                            <p class="footer-widget__about-text">There are many of simple lorem available for
+                                not, but the majority alteration.</p>
+                        </div>
+                        <div class="footer-widget__about-btn-box">
+                            <a href="contact.html" class="footer-widget__about-btn thm-btn">Contact</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-2 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="200ms">
+                    <div class="footer-widget__column footer-widget__links">
+                        <div class="footer-widget__title-box">
+                            <h4 class="footer-widget__title">Links</h4>
+                        </div>
+                        <ul class="footer-widget__links-list list-unstyled">
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="team.html">Meet Our Team</a></li>
+                            <li><a href="news.html">News & Media</a></li>
+                            <li><a href="projects-1.html">Our Projects</a></li>
+                            <li><a href="contact.html">Contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="300ms">
+                    <div class="footer-widget__contact">
+                        <div class="footer-widget__title-box">
+                            <h4 class="footer-widget__title">Contact</h4>
+                        </div>
+                        <p class="footer-widget__contact-text">30 Road Broklyn Street, 600 <br> New York, USA
+                        </p>
+                        <ul class="footer-widget__Contact-list list-unstyled">
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-email"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="needhelp@company.com">needhelp@company.com</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <span class="icon-telephone"></span>
+                                </div>
+                                <div class="text">
+                                    <p><a href="tel:9288008960">+92 ( 8800 ) - 8960</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="400ms">
+                    <div class="footer-widget__newsletter">
+                        <div class="footer-widget__title-box">
+                            <h4 class="footer-widget__title">Newsletter</h4>
+                        </div>
+                        <div class="footer-widget__newsletter-form-box">
+                            <form class="footer-widget__newsletter-form mc-form" data-url="MC_FORM_URL">
+                                <div class="footer-widget__newsletter-form-input-box">
+                                    <input type="email" placeholder="Email Address" name="EMAIL">
+                                    <button type="submit" class="footer-widget__newsletter-btn"><img
+                                            src="assets/images/icon/paper-plan-icon.png" alt=""></button>
+                                </div>
+                            </form>
+                            <div class="mc-form__response"></div>
+                        </div>
+                        <div class="site-footer__social">
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-facebook"></i></a>
+                            <a href="#"><i class="fab fa-pinterest-p"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div class="site-footer__bottom">
+            <p class="site-footer__bottom-text">Copyright © 2023 All Rights Reserved.</p>
+            <ul class="list-unstyled site-footer__bottom-menu">
+                
+                <li><a href="https://startupmission.kerala.gov.in/" target="_blank">Powered by Kerala Startup Mission ®</a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+<div class="mobile-nav__wrapper">
+    <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+    <!-- /.mobile-nav__overlay -->
+    <div class="mobile-nav__content">
+        <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+        <div class="logo-box">
+            <a aria-label="logo image"><img src="/img/logo-white.svg" width="130"
+                    alt="" /></a>
+
+                    <a aria-label="logo image"><img src="/img/habitat.svg" width="130"
+                        alt="" /></a>
+        </div>
+        <!-- /.logo-box -->
+        <div class="mobile-nav__container"></div>
+        
+    </div>
+   
+</div>
+    
+</Layout>
+
+<script is:inline>
+	function openForm() {
+	  document.getElementById("overlay").style.display = "flex";
+	}
+  
+	function closeForm() {
+	  document.getElementById("overlay").style.display = "none";
+	}
+  </script>
+
+
+<script is:inline>
+	 function toggleParagraph() {
+      var paragraph = document.getElementById("ab2");
+      var button = document.getElementById("button");
+
+      if (paragraph.style.display === "none") {
+        paragraph.style.display = "block";
+        button.innerHTML = "Read less";
+      } else {
+        paragraph.style.display = "none";
+        button.innerHTML = "Read more";
+      }
+    }
+</script>
+
+<style>
+    .overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .popup-form {
+     
+      padding: 20px;
+	  padding-top: 30px;
+      border-radius: 2px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+
+  </style>
+
+<script is:inline>
+    const popup = document.getElementById('popup');
+    const popupImage = document.getElementById('popupImage');
+    const closeButton = document.getElementById('closeButton');
+  
+    function h(imageSrc) {
+        popupImage.src = imageSrc;
+        popup.style.display = 'flex';
+    }
+  
+    closeButton.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+  </script>
